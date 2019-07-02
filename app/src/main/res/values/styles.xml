@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- 导航栏颜色 -->
+        <item name="android:navigationBarColor">#2E9598</item>
+        <!-- 状态栏透明 -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <!-- Toolbar是否可被覆盖 <item name="android:overlapAnchor">false</item> -->
+    </style>
+
+    <!-- 全屏主题 -->
+    <style name="NoActionBarFullscreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/m_sea"
+    android:layout_width="match_parent"
+    android:layout_height="180dp" >
+
+    <!--
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:fitsSystemWindows="true"
+        android:src="@drawable/m_sea"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+        -->
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/icon_image"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/nav_icon"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/icon_image"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="14dp"
+        android:text="MCC"
+        android:textColor="#FF9800"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/username"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="20dp"
+        android:text="mcc@gmail.com"
+        android:textColor="#FFF"
+        android:textSize="16sp" />
+
+    <!--
+
+    android:padding="10dp"
+    android:background="@drawable/m_girl"
+    android:scaleType="fitCenter"
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/icon_image"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/nav_icon"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="mcc@gmail.com"
+        android:textColor="#FFF"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/mail"
+        android:text="MCC"
+        android:textColor="#FFF"
+        android:textSize="14sp" />
+        -->
+
+</android.support.constraint.ConstraintLayout>

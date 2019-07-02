@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 默认配色
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    -->
+
+    <color name="colorPrimary">#2E9598</color>
+    <color name="colorPrimaryDark">#2E9598</color>
+    <color name="colorAccent">#2E9598</color>
+
+    <color name="deepBlue">#335D7E</color>
+    <color name="green">#4CAF50</color>
+    <color name="deepGreen">#388E3C</color>
+    <color name="primary_light">#C8E6C9</color>
+    <color name="accent">#FF9800</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="white">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="grey">#9E9E9E</color>
+    <color name="blue_green">#2E9598</color>
+    <color name="pink">#f48b94</color>
+    <color name="a">#7D000000</color>
+
+</resources>
